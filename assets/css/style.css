@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-color: #000;
+}
+.menu {
+    background-color: #000;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    list-style: none;
+}
+.menu img{
+    width: 5rem;
+    height: 3rem;
+}
+.logo,
+.tel,
+.home,
+.lifestyle {
+    padding: 10px;
+    font-size: 16px;
+}
+.celname,
+.introdution,
+.especifications{
+    font-size: 12px;
+}
+.submenu ul{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    color: #fff;
+}
+.submenu a{
+    text-decoration: none;
+    color: #fff;
+}
+.informations {
+    display: flex;
+}
+.submenu li{
+    padding: 4px 13px;
+    list-style: none;
+    font-size: 12px;
+}
+
+.banner img{
+    max-width: 63rem;
+}
+.banner1,
+.banner2,
+.banner3{
+    display: flex;
+    align-items: center;
+}
+.banner_text1,
+.banner_text2,
+.banner_text3{
+    margin-left: 10px;
+    color: #fff;
+}
+.buttonbuy{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    font-size: 29px;
+    margin: auto;
+    width: 20rem;
+    height: 2rem;
+}
+.buttonbuy a{
+    text-decoration: none;
+    color: #fff;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+}
+.cel{
+    display: flex;
+    justify-content: center;
+}
+.cel img{
+    height: 400px;
+}
+.developer{
+    display:flex;
+    flex-direction: column;
+    background-color: #000;
+}
+.developer_title{
+    color: #fff;
+    height: 41px;
+}
+.social_medias{
+    display: flex;
+}
+.developer img{
+    width: 1rem;
+    height: 1rem;
+}
+
+
